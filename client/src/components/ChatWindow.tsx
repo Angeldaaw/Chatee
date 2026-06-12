@@ -13,7 +13,7 @@ export default function ChatWindow({
         return (
     <div className="chat-wrapper">
       <div className="chat-container">
-        <h2 className="chat-title">💬 ChaTee</h2>
+        <h2 className="chat-title">ChaTee</h2>
         <div className="chat-box">
           {messages.map((msg, idx) => (
             <div key={idx} className="chat-message">
